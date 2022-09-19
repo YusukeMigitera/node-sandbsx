@@ -1,0 +1,28 @@
+{
+  "name": "node-sandbsx",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "repository": "git@github.com:YusukeMigitera/node-sandbsx.git",
+  "author": "YusukeMigitera <ymigitera@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --loader ts-node/esm main.ts",
+    "lint": "eslint --fix --ext .jsx,.js,.tsx,.ts ."
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
