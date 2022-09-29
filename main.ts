@@ -13,7 +13,7 @@ const server = createServer((request: any, response: any) => {
   if (uri === '/') {
     response.end(
       JSON.stringify({
-        message: "Hello",
+        message: 'Hello',
       })
     );
   } else if (uri === '/hi') {
