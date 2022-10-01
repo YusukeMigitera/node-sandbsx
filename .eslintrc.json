@@ -16,7 +16,10 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     "comma-dangle": "off",
-    "no-console": "off"
+    "no-console": "off",
+    // パッケージからの import は拡張子不要だが、相対パスからの import は拡張子を必要にする
+    "import/extensions": ["error", "always", { "ignorePackages": true }],
+    "consistent-return":"off"
   },
   "ignorePatterns": ["/node_modules/"]
 }
